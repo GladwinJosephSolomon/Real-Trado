@@ -57,7 +57,7 @@ const Property = ({
           </Box>
         </Flex>
         {/* For Rooms */}
-        <Link href="https://real-trado-blockchain-pay.herokuapp.com/" passHref>
+        <Link href="https://blockchain-network-payment.herokuapp.com/" passHref>
           <Flex
             alignItems="center"
             p="1"
@@ -68,7 +68,7 @@ const Property = ({
             {rooms} <FaBed /> | {baths} <FaBath /> | {millify(area)} sqft{" "}
             <BsGridFill />
             <Link
-              href="https://real-trado-blockchain-pay.herokuapp.com/"
+              href="https://blockchain-network-payment.herokuapp.com/"
               passHref
             >
               <a className="button">Buy/Rent</a>
